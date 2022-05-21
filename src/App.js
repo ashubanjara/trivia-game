@@ -166,7 +166,7 @@ class App extends React.Component {
                                 <li>9/10: Almost Genius</li>
                                 <li>8/10: Smart</li>
                                 <li>5-7/10: Average</li>
-                                <li>3-4/10: Dumb</li>
+                                <li>3-4/10: OK</li>
                                 <li>2/10: Worse than random</li>
                                 <li>1/10: Even worse than random</li>
                                 <li>0/10: ...</li>
