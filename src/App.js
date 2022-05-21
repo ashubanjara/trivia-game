@@ -63,7 +63,7 @@ class App extends React.Component {
     async startGame() {
         try {
             this.setState({score: 0})
-            this.setState({timer: 10})
+            this.setState({timer: 15})
             this.setState({showEndModal: false})
             this.setState({showStartModal: false})
             this.setState({isLoading: true})
