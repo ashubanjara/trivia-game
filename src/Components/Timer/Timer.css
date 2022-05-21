@@ -1,0 +1,9 @@
+.timer-number {
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 25px;
+    background: #289D8F;
+    align-self: start;
+    border-radius: 5px;
+    width: 4em;
+}

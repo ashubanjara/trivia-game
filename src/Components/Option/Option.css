@@ -1,0 +1,9 @@
+.answer-container {
+    border-radius: 12px;
+    padding: 1.2em 1.1em;
+    cursor: pointer;
+}
+
+.answer-container:hover {
+    transform: scale(1.05);
+}
