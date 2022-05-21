@@ -24,13 +24,13 @@ class App extends React.Component {
                 10: 'Genius',
                 9: 'Almost Genius',
                 8: 'Smart',
-                7: 'Average',
-                6: 'Average',
-                5: 'Average',
-                4: 'Dumb',
-                3: 'Dumb',
-                2: 'Somehow worse than randomly guessing',
-                1: 'Hello?',
+                7: 'Good',
+                6: 'Good',
+                5: 'Good',
+                4: 'Ok',
+                3: 'Ok',
+                2: 'Worse than random',
+                1: 'Even worse than random',
                 0: '...'
             }
         }
@@ -167,8 +167,8 @@ class App extends React.Component {
                                 <li>8/10: Smart</li>
                                 <li>5-7/10: Average</li>
                                 <li>3-4/10: Dumb</li>
-                                <li>2/10: Somehow worse than randomly guessing</li>
-                                <li>1/10: Hello?</li>
+                                <li>2/10: Worse than random</li>
+                                <li>1/10: Even worse than random</li>
                                 <li>0/10: ...</li>
                             </ul>
                         </li>
