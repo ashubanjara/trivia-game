@@ -159,7 +159,7 @@ class App extends React.Component {
                     <h3>Rules:</h3>
                     <ul>
                         <li>10 Questions in total</li>
-                        <li>10 Seconds per question</li>
+                        <li>15 Seconds per question</li>
                         <li>What the scores mean:
                             <ul>
                                 <li>10/10: Genius</li>
