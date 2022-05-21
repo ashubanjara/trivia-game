@@ -10,7 +10,7 @@ class App extends React.Component {
     constructor() {
         super()
         this.state = {
-            timer: 10,
+            timer: 15,
             sessionToken: "",
             questions: [],
             questionIndex: 0,
@@ -67,7 +67,7 @@ class App extends React.Component {
             this.setState({showEndModal: false})
             this.setState({showStartModal: false})
             this.setState({isLoading: true})
-            const res = await fetch(`https://opentdb.com/api.php?amount=10&type=multiple&difficulty=easy&category=12&token=${this.state.sessionToken}`)
+            const res = await fetch(`https://opentdb.com/api.php?amount=10&type=multiple&difficulty=easy&category=15&token=${this.state.sessionToken}`)
             const data = await res.json()
             this.setState({questions: data.results}, () => {
                 this.setState({optionsArray: this.getOptionsArray()})
@@ -109,7 +109,7 @@ class App extends React.Component {
         else {
             console.log(chosenAnswer)
             console.log(questions[questionIndex].correct_answer)
-            this.setState({timer: 10})
+            this.setState({timer: 15})
             if (questions[questionIndex].correct_answer === chosenAnswer) {
                 this.setState((prevState) => {
                     return {score: prevState.score + 1}
