@@ -67,7 +67,7 @@ class App extends React.Component {
             this.setState({showEndModal: false})
             this.setState({showStartModal: false})
             this.setState({isLoading: true})
-            const res = await fetch(`https://opentdb.com/api.php?amount=10&type=multiple&difficulty=easy&category=22&token=${this.state.sessionToken}`)
+            const res = await fetch(`https://opentdb.com/api.php?amount=10&type=multiple&difficulty=easy&category=12&token=${this.state.sessionToken}`)
             const data = await res.json()
             this.setState({questions: data.results}, () => {
                 this.setState({optionsArray: this.getOptionsArray()})
